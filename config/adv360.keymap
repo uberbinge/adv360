@@ -68,8 +68,8 @@
             bindings = <
 &kp EQUAL       &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 4                                                                                       &mo 3      &kp N6  &kp N7    &kp N8        &kp N9    &kp N0    &kp MINUS
 &kp TAB         &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                                                        &none      &kp Y   &kp U     &kp I         &kp O     &kp P     &kp BSLH
-&kp ESC         &kp A      &kp S     &kp D     &kp F      &kp G   &none          &kp LEFT_CONTROL  &kp LEFT_ALT          &kp RIGHT_ALT      &kp RIGHT_CONTROL  &none      &kp H   &kp J     &kp K         &kp L     &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z      &kp X     &kp C     &kp V      &kp B                                    &kp LEFT_COMMAND      &kp RIGHT_COMMAND                                &kp N   &kp M     &kp COMMA     &kp DOT   &kp FSLH  &kp RIGHT_SHIFT
+&kp ESC         &kp A      &kp S     &kp D     &kp F      &kp G   &none          &kp LEFT_COMMAND  &kp LEFT_ALT          &kp RIGHT_ALT      &kp RIGHT_COMMAND  &none      &kp H   &kp J     &kp K         &kp L     &kp SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z      &kp X     &kp C     &kp V      &kp B                                    &kp LEFT_CONTROL      &kp RIGHT_CONTROL                                &kp N   &kp M     &kp COMMA     &kp DOT   &kp FSLH  &kp RIGHT_SHIFT
 &mo 1           &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BACKSPACE  &lt 2 DELETE      &kp RG(TAB)           &kp RG(SPACE)      &kp ENTER          &kp SPACE          &kp DOWN  &kp UP_ARROW  &kp LBKT  &kp RBKT  &mo 1
             >;
         };
@@ -86,11 +86,11 @@
 
         personal {
             bindings = <
-&trans  &trans         &kp AT_SIGN               &kp HASH           &kp ASTERISK       &trans             &trans                                                    &trans             &kp GRAVE         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE          &trans        &trans
-&trans  &trans         &kp LG(LC(LS(W)))         &kp LG(LC(LS(E)))  &kp LG(LS(LC(R)))  &kp LG(LS(LC(T)))  &kp LG(LS(NUMBER_4))                                      &kp LC(LA(ENTER))  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp PLUS      &kp PIPE
-&trans  &kp CARET      &kp EQUAL                 &kp UNDER          &kp MINUS          &kp LC(LG(LS(G)))  &kp LA(LC(LEFT))      &trans  &trans      &trans  &trans  &kp LC(LA(RIGHT))  &kp LEFT          &kp DOWN_ARROW        &kp UP_ARROW           &kp RIGHT          &kp COLON     &kp DOUBLE_QUOTES
-&trans  &kp LG(LS(C))  &kp LC(X)                 &kp LG(C)          &kp LG(V)          &kp LC(A)                                        &trans      &trans                             &kp EXCLAMATION   &kp DOLLAR            &kp LESS_THAN          &kp GREATER_THAN   &kp QUESTION  &trans
-&trans  &trans         &kp LC(LG(LS(NUMBER_4)))  &trans             &trans                                &trans                &trans  &trans      &trans  &trans  &trans                               &trans                &trans                 &trans             &trans        &trans
+&trans  &trans             &kp AT_SIGN               &kp HASH           &kp ASTERISK       &trans             &trans                                                    &trans             &kp GRAVE         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE          &trans        &trans
+&trans  &trans             &kp LG(LC(LS(W)))         &kp LG(LC(LS(E)))  &kp LG(LS(LC(R)))  &kp LG(LS(LC(T)))  &kp LG(LS(NUMBER_4))                                      &kp LC(LA(ENTER))  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp PLUS      &kp PIPE
+&trans  &kp LG(LC(LS(A)))  &kp LG(LC(LS(S)))         &kp LG(LC(D))      &kp LS(LC(LG(F)))  &kp LC(LG(LS(G)))  &kp LA(LC(LEFT))      &trans  &trans      &trans  &trans  &kp LC(LA(RIGHT))  &kp EQUAL         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDERSCORE     &kp COLON     &kp DOUBLE_QUOTES
+&trans  &kp LG(LS(C))      &kp LC(X)                 &kp LG(C)          &kp LG(V)          &kp LC(A)                                        &trans      &trans                             &kp EXCLAMATION   &kp DOLLAR            &kp LESS_THAN          &kp GREATER_THAN   &kp QUESTION  &trans
+&trans  &trans             &kp LC(LG(LS(NUMBER_4)))  &trans             &trans                                &trans                &trans  &trans      &trans  &trans  &trans                               &trans                &trans                 &trans             &trans        &trans
             >;
         };
 
